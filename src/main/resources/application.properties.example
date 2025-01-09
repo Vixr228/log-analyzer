@@ -1,0 +1,23 @@
+spring.application.name=log-analyzer
+
+log.filePath=
+log.processing.fixed-rate=
+
+parser.patterns=
+parser.levels=INFO, WARN, ERROR
+
+
+notification.telegramBotToken=
+notification.telegramChatId=
+
+
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.url=jdbc:postgresql://db:5432/logs_db
+#spring.datasource.url=jdbc:postgresql://0.0.0.0:5432/logs_db
+spring.datasource.username=root
+spring.datasource.password=root
+spring.jpa.show-sql=true
+spring.liquibase.change-log=classpath:db/changelog.xml
+spring.jpa.hibernate.ddl-auto=none
+spring.liquibase.enabled=true
+spring.liquibase.default-schema=public

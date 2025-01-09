@@ -1,0 +1,4 @@
+13.11.2024 22:49:48 INFO [org.apache.activemq.broker.BrokerService] [RMI TCP Connection(3)-127.0.0.1] Using Persistence Adapter: KahaDBPersistenceAdapter
+13.11.2024 22:49:48 WARN [org.apache.activemq.broker.jmx.ManagementContext] [JMX connector] Failed to start JMX connector Cannot bind to URL [rmi://localhost:1099/jmxrmi]: javax.naming.CommunicationException [Root exception is java.rmi.ServerException: RemoteException occurred in server thread; nested exception is:
+	java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is:
+	java.io.InvalidClassException: filter status: REJECTED]. Will restart management to re-create JMX connector, trying to remedy this issue.
